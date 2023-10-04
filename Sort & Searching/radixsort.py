@@ -2,7 +2,7 @@ def radix_sort(arr):
     max_digit = max(arr)
     exp = 1
     while max_digit // exp > 0:
-        counting_sort(arr, exp)
+        counting_sort(arr ,exp)
         exp *= 10
 
 def counting_sort(arr, exp):
