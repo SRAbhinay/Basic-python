@@ -8,6 +8,7 @@ def bucket_sort(arr):
         buckets[index].append(num)
 
     sorted_arr = []
+    
     for bucket in buckets:
         insertion_sort(bucket)
         sorted_arr.extend(bucket)
