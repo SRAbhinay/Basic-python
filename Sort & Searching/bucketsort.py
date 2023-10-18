@@ -1,4 +1,5 @@
 def bucket_sort(arr):
+   
     max_val ,min_val = max(arr), min(arr)
     bucket_range = (max_val - min_val) / len(arr)
     buckets = [[] for _ in range(len(arr))]
